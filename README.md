@@ -1,4 +1,4 @@
-# Multi Step Form
+# MultiStepForm
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -9,4 +9,4 @@
 
 - [ ] Deixar responsivo para mobile/tablet
 
-[⬆ Voltar ao topo](#Multi Step Form)<br>
+[⬆ Voltar ao topo](#MultiStepForm)<br>
