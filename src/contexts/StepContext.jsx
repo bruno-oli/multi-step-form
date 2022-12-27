@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const StepContext = createContext();
 
 const StepProvider = ({ children }) => {
-  const [step, setStep] = useState(5);
+  const [step, setStep] = useState(1);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
