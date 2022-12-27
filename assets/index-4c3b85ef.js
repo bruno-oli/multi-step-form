@@ -51,7 +51,7 @@ Error generating stack: `+l.message+`
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.253);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.253);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.253);
-`,Nm="/multi-step-form/assets/sidebarDesktop-e6d2744a.svg",Ce=M.createContext(),zm=({children:e})=>{const[t,n]=M.useState(5),[r,o]=M.useState(""),[l,i]=M.useState(""),[u,s]=M.useState(""),[c,m]=M.useState({yearly:!1,planActive:{name:"arcade",price:{m:9,y:90}}}),[p,h]=M.useState(!1),[S,g]=M.useState(!1),[w,_]=M.useState(!1);return P(Ce.Provider,{value:{step:t,setStep:n,name:r,setName:o,email:l,setEmail:i,phone:u,setPhone:s,plan:c,setPlan:m,onlineService:p,setOnlineService:h,largerStorage:S,setLargerStorage:g,customizableProfile:w,setCustomizableProfile:_},children:e})},Tm=he.div`
+`,Nm="/multi-step-form/assets/sidebarDesktop-e6d2744a.svg",Ce=M.createContext(),zm=({children:e})=>{const[t,n]=M.useState(1),[r,o]=M.useState(""),[l,i]=M.useState(""),[u,s]=M.useState(""),[c,m]=M.useState({yearly:!1,planActive:{name:"arcade",price:{m:9,y:90}}}),[p,h]=M.useState(!1),[S,g]=M.useState(!1),[w,_]=M.useState(!1);return P(Ce.Provider,{value:{step:t,setStep:n,name:r,setName:o,email:l,setEmail:i,phone:u,setPhone:s,plan:c,setPlan:m,onlineService:p,setOnlineService:h,largerStorage:S,setLargerStorage:g,customizableProfile:w,setCustomizableProfile:_},children:e})},Tm=he.div`
   display: flex;
   gap: 1rem;
   align-items: center;
