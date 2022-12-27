@@ -7,8 +7,8 @@ const Button = styled.button`
   background-color: ${(props) => props.theme.colors.MarineBlue};
   margin-top: 3rem;
   padding: 1rem;
-  border-radius: .6rem;
-  color: ${props => props.theme.colors.Magnolia};
+  border-radius: 0.6rem;
+  color: ${(props) => props.theme.colors.Magnolia};
   font-weight: 600;
   cursor: pointer;
 `;

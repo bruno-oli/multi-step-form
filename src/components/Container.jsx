@@ -12,6 +12,8 @@ import { StepContext } from "../contexts/StepContext";
 import StepOne from "../views/StepOne";
 import StepTwo from "../views/StepTwo";
 import StepThree from "../views/StepThree";
+import StepFour from "../views/StepFour"
+import StepFive from "../views/StepFive"
 
 const Wrapper = styled.section`
   display: flex;
@@ -44,10 +46,14 @@ const Container = () => {
     switch (page) {
       case 1:
         return <StepOne />;
-      case 2: 
-        return <StepTwo />
-      case 3: 
-        return <StepThree />
+      case 2:
+        return <StepTwo />;
+      case 3:
+        return <StepThree />;
+      case 4:
+        return <StepFour />
+      case 5:
+        return <StepFive />
     }
   }
   return (
